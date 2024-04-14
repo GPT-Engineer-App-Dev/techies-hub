@@ -1,0 +1,142 @@
+export const developers = [
+  {
+    id: 1,
+    name: "John Smith",
+    location: "New York, NY",
+    photo: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60", 
+    technologies: ["React", "Node.js", "JavaScript"]
+  },
+  {
+    id: 2, 
+    name: "Sarah Johnson",
+    location: "San Francisco, CA",
+    photo: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+    technologies: ["Go", "Node.js", "React"] 
+  },
+  {
+    id: 3,
+    name: "Michael Lee",
+    location: "Chicago, IL", 
+    photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+    technologies: [".NET", "C#", "JavaScript"]
+  },
+  {
+    id: 4,
+    name: "Emily Davis",
+    location: "Houston, TX",
+    photo: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60", 
+    technologies: ["JavaScript", "React", "Angular"]
+  },
+  {
+    id: 5,
+    name: "David Kim",
+    location: "Seattle, WA",
+    photo: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+    technologies: ["React", "Node.js", "Express"] 
+  },
+  {
+    id: 6,
+    name: "Jessica Wong",
+    location: "Toronto, ON",
+    photo: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+    technologies: ["Node.js", "JavaScript", "React"]
+  },
+  {
+    id: 7, 
+    name: "Daniel Nguyen",
+    location: "Los Angeles, CA",
+    photo: "https://images.unsplash.com/photo-1521119989659-a83eee488004?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    technologies: ["Go", "JavaScript", "React"]
+  },
+  {
+    id: 8,
+    name: "Olivia Brown", 
+    location: "Miami, FL",
+    photo: "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    technologies: ["JavaScript", "Vue", "Node.js"]
+  },
+  {
+    id: 9,
+    name: "Ethan Patel",
+    location: "Boston, MA", 
+    photo: "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    technologies: [".NET", "C#", "SQL"]
+  },
+  {
+    id: 10,
+    name: "Sophia Chen",
+    location: "Vancouver, BC",
+    photo: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60", 
+    technologies: ["JavaScript", "Angular", "Node.js"]
+  },
+  {
+    id: 11,
+    name: "William Rodriguez",
+    location: "Dallas, TX",
+    photo: "https://images.unsplash.com/photo-1522556189639-b150ed9c4330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    technologies: ["React", "Node.js", "MongoDB"]
+  },
+  {
+    id: 12,
+    name: "Ava Martinez",
+    location: "Phoenix, AZ",
+    photo: "https://images.unsplash.com/photo-1518577915332-c2a19f149a75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    technologies: ["JavaScript", "React", "Redux"]
+  },
+  {
+    id: 13,
+    name: "James Taylor",
+    location: "Denver, CO", 
+    photo: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+    technologies: ["Go", "JavaScript", "gRPC"]
+  },
+  {
+    id: 14,
+    name: "Mia Anderson",
+    location: "Austin, TX",
+    photo: "https://images.unsplash.com/photo-1579105728744-9d6b14a45389?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    technologies: ["Node.js", "Express", "MongoDB"] 
+  },
+  {
+    id: 15,
+    name: "Benjamin Thomas",
+    location: "San Diego, CA",
+    photo: "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    technologies: [".NET", "C#", "Azure"]
+  },
+  {
+    id: 16,
+    name: "Charlotte Harris",
+    location: "Philadelphia, PA",
+    photo: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    technologies: ["JavaScript", "React", "GraphQL"] 
+  },
+  {
+    id: 17,
+    name: "Henry Martin",
+    location: "Portland, OR",
+    photo: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    technologies: ["Go", "Docker", "Kubernetes"]
+  },
+  {
+    id: 18, 
+    name: "Amelia Thompson",
+    location: "Atlanta, GA",
+    photo: "https://images.unsplash.com/photo-1581403341630-a6e0b9d2d257?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    technologies: ["JavaScript", "Vue", "Nuxt"]
+  },
+  {
+    id: 19,
+    name: "Joseph White",
+    location: "London, UK",
+    photo: "https://images.unsplash.com/photo-1480429370139-e0132c086e2a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    technologies: [".NET", "C#", "Angular"] 
+  },
+  {
+    id: 20,
+    name: "Evelyn Garcia",
+    location: "Montreal, QC",
+    photo: "https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    technologies: ["JavaScript", "React", "Gatsby"]
+  }
+];
